@@ -4,7 +4,8 @@
 	<title>EasyAutocomplete custom template example</title>
 	<!-- JS file -->
 <!-- jQuery CDN -->
-<link rel="stylesheet" href = "easy-autocomplete.min.css">
+<link rel="stylesheet" href="easy-autocomplete.min.css">
+<link rel="stylesheet" href="easy-autocomplete.themes.min.css">
 </head>
 <body>
 
@@ -14,20 +15,6 @@
 
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="jquery.easy-autocomplete.min.js"></script>
-
-<script>
-	var options = {
-		url : "https://easyautocomplete.com/resources/countries.json",
-		getValue: "name",
-		list: {
-			match: {
-				enabled: true
-			}
-		},
-		theme: "square"
-};
-
-$("#countries").easyAutocomplete(options);
-</script>
+<script src="index.js"></script>
 </body>
 </html>
