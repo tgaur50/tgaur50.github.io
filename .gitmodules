@@ -1,0 +1,3 @@
+[submodule "blogApplication"]
+	path = blogApplication
+	url = https://github.com/tgaur50/blogApplication
